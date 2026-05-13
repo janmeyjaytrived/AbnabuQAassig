@@ -25,7 +25,7 @@ try:
       )
     password.send_keys("AdNabuQA"+Keys.ENTER)
 
-     #driver.find_element(By.XPATH, "//button[@type='submit']").click()
+    
 
      # Open Search
     WebDriverWait(driver,5).until(
