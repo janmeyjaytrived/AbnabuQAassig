@@ -74,6 +74,10 @@ py Test.py -v
 
 ## 📊 Test Reports
 
+SUCCESS: The Complete Snowboard
+Regular price
+$699.95 added to cart
+
 
 
 
