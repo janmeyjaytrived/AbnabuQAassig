@@ -8,7 +8,7 @@ This repository contains the test design and automated test scripts for the **Ad
 
 ## 📝 Task 1: Test Design
 
-The manual test cases covering positive, negative, and edge cases for the **Product Search** and **Add to Cart** functionalities are documented in the `Test_Cases.md` file.
+The manual test cases covering positive, negative, and edge cases for the **Product Search** and **Add to Cart** functionalities are documented in the `AdNabu_Test_Cases.xlsx` file.
 
 ---
 
@@ -22,7 +22,6 @@ The automation script covers a single end-to-end scenario: **Searching for a pro
 |----------------|-------------------------------------|
 | Language       | Python                              |
 | Framework      | Selenium WebDriver                  |
-| Test Runner    | Pytest *(Recommended for modularity)* |
 
 
 ---
