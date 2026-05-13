@@ -24,7 +24,6 @@ The automation script covers a single end-to-end scenario: **Searching for a pro
 | Framework      | Selenium WebDriver                  |
 | Test Runner    | Pytest *(Recommended for modularity)* |
 
-> **Note:** The framework uses explicit and implicit waits (no hardcoded sleeps) to ensure reliability and modularity. Cross-browser support and full framework setup were intentionally excluded as per the assignment instructions.
 
 ---
 
@@ -35,8 +34,8 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <repository-folder>
+git clone https://github.com/janmeyjaytrived/AbnabuQAassig
+cd .idea
 ```
 
 ### 2. Set Up a Virtual Environment *(Optional but Recommended)*
@@ -61,8 +60,6 @@ Install the required Python packages using pip:
 pip install -r requirements.txt
 ```
 
-> Dependencies include `selenium`, `pytest`, and `pytest-html` for reporting.
-
 ---
 
 ## 🚀 How to Run the Tests
@@ -70,19 +67,16 @@ pip install -r requirements.txt
 To execute the automated test script, run the following command in your terminal:
 
 ```bash
-pytest test_script_name.py -v
+py Test.py -v
 ```
 
-> Replace `test_script_name.py` with the actual name of your Python file.
 
 ---
 
 ## 📊 Test Reports
 
-To generate an HTML test report during execution, run:
 
-```bash
-pytest test_script_name.py --html=report.html --self-contained-html
-```
 
-Upon completion, a `report.html` file will be generated in the root directory. Open this file in any web browser to view the detailed test execution report.
+
+
+
